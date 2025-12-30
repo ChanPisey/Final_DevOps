@@ -1,7 +1,7 @@
 ### Provider
 region             = "us-east-1"
 availability_zones = ["us-east-1a", "us-east-1b"]
-environment  = "staging"
+environment        = "staging"
 
 
 ###### ECR
@@ -20,11 +20,11 @@ private_subnet_cidr_blocks = [
 ]
 
 ##### EKS
-cluster_name="my-eks-app"
-cluster_version="1.29"
+cluster_name     = "my-eks-app"
+cluster_version  = "1.29"
 desired_capacity = 2
-instance_type = "t2.micro"
-max_capacity =5
-min_capacity =1
+instance_type    = "t3.small"
+max_capacity     = 5
+min_capacity     = 1
 
 
