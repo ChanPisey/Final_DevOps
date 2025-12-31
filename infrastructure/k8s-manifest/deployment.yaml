@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: react-app-container
-          image: 490765254799.dkr.ecr.us-east-1.amazonaws.com/react-app-2048-ss:latest
+          image: 732555349607.dkr.ecr.us-east-1.amazonaws.com/react-app-2048-ss:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
